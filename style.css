@@ -1,18 +1,40 @@
 body{
     background-image: url("https://picsum.photos/id/185/2000/1000");
     background-attachment:fixed;
+    margin:0px;
 }
 
 h1{
-
+    margin: 0px;
 }
 
-#header{
-    background-color:rgb(243, 198, 138);
+a{
+    text-decoration:none
+}
+
+a:hover{
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration:underline
+}
+
+#header, a{
+    background-color:rgb(71, 60, 46);
     font-size: 20px;
+    font-family:impact;
+    color:white;
+    height:100px;
 }
 
-#hero{
+#hero > h1{
+    font-family:impact;
+    font-size:80px;
+
+}
+
+#hero > p{
+    font-size:40px; 
+    background-color:rgb(231, 154, 52);
+    color:white;
 
 }
 
@@ -32,3 +54,41 @@ h1{
 
 }
 
+.cta a{
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.logo{
+
+}
+
+.nav{
+
+}
+
+.cta>a:hover{
+    background-color:white;
+   color:black
+}
+
+#product{
+    background-color:rgb(199, 198, 197);
+}
+
+.card{
+    background-color:white;
+    width:fit-content
+}
+
+.attribute{
+    font-weight:bold
+}
+
+.quote::before{
+    content:"\"";
+}
+
+.quote::after{
+    content:"\"";
+}
