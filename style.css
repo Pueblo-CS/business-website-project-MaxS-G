@@ -9,7 +9,8 @@ h1{
 }
 
 a{
-    text-decoration:none
+    text-decoration:none;
+    padding:0%;
 }
 
 a:hover{
@@ -23,6 +24,9 @@ a:hover{
     font-family:impact;
     color:white;
     height:100px;
+    padding-top: 15px;
+    padding-left:15px;
+    padding-right:15px;
 }
 
 #hero > h1{
@@ -36,6 +40,13 @@ a:hover{
     background-color:rgb(231, 154, 52);
     color:white;
 
+}
+
+#hero{
+    margin:10%;
+    margin-bottom:10%;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 #product{
@@ -54,31 +65,37 @@ a:hover{
 
 }
 
-.cta a{
+#cta{
+   
+}
+
+#cta a{
     font-size:20px;
     font-family:'Times New Roman', Times, serif;
 }
 
-.logo{
-
-}
-
-.nav{
-
-}
-
-.cta>a:hover{
+#cta>a:hover{
     background-color:white;
    color:black
 }
 
+#cta>a:active{
+    background-color:white;
+   color:rgb(219, 133, 34)
+}
+
 #product{
     background-color:rgb(199, 198, 197);
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    padding:40px;
 }
 
 .card{
     background-color:white;
-    width:fit-content
+    width:20%;
+    padding:10px, 20px, 10px, 20px;
 }
 
 .attribute{
@@ -91,4 +108,19 @@ a:hover{
 
 .quote::after{
     content:"\"";
+}
+
+.logo{
+    float:left
+}
+.nav{
+    float:right;
+    padding:0%;
+}
+.button{
+    padding:5px, 10px, 5px, 10px;
+    border-width: 2px;
+    border-style:solid;
+    border-radius:8px;
+
 }
